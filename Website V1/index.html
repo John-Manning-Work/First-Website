@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Website Title -->
+    <title>Website Attempt One</title>
+
+    <!-- CSS Style Sheet For Customization-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Including FontAwesome For Logos -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <!-- Including Font Weights -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+
+  <body>
+    <!-- Navigation bar Section -->
+    <!-- Navigation Class -->
+    <nav class="navbar">
+
+      <!-- Navigation Container-->
+      <div class="navbar__container">
+
+        <!-- Navigation Logo & Initials -->
+        <a href="/" id="navbar__logo"><i class="fas fa-laptop-code"></i>JM</a>
+
+        <!-- Creating Navigation bar dropdown for mobile -->
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span> 
+        </div>
+
+        <!-- Creating Navigation Bar Links For Desktop & Mobile-->
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links">About Me</a>
+          </li>
+          <li class="navbar__btn"><a href="/" class="button">View Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Area Section -->
+    <!-- Creating Main class -->
+    <div class="main">
+      <!-- Creating Main Container -->
+      <div class="main__container">
+        <!-- Creating The Main Content Of The Website. Titles & Button To View Projects -->
+        <div class="main__content">
+          <h1>JOHN MANNING</h1>
+          <h2>TECHNICAL CV</h2>
+          <p>Take a look into my past & current work.</p>
+          <button class="main__btn"><a href="#">View Projects</a></button>
+        </div>
+        
+      <!--
+        Adding A Image To Main Section
+        <div class="main__img--container">
+          <img id="main__img" src="images/pic1.svg" />
+        </div>
+      -->
+      </div>
+    </div> 
+
+
+    <!-- Project Section -->
+    <div class="projects">
+      <h1 class="fancy">FUTURE&nbsp;PROJECTS</h1>
+      <div class="projects__container">
+        <div class="projects__card">
+          <h2>Enter Project</h2>
+          <p>Project Description</p>
+          <button>View Project</button>
+        </div>
+        <div class="projects__card">
+          <h2>Enter Project</h2>
+          <p>Project Description</p>
+          <button>View Project</button>
+        </div>
+        <div class="projects__card">
+          <h2>Enter Project</h2>
+          <p>Project Description</p>
+          <button>View Project</button>
+        </div>
+        <div class="projects__card">
+          <h2>Enter Project</h2>
+          <p>Project Description</p>
+          <button>View Project</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/">View Project</a> <a href="/">View Project</a>
+            <a href="/">View Project</a> <a href="/">View Project</a>
+            <a href="/">View Project</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">View Project</a> <a href="/">View Project</a>
+            <a href="/">View Project</a> <a href="/">View Project</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">View Project</a> <a href="/">View Project</a>
+            <a href="/">View Project</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">View Project</a> <a href="/">View Project</a>
+            <a href="/">View Project</a> <a href="/">View Project</a>
+            <a href="/">View Project</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><i class="fas fa-laptop-code"></i>JM</a>
+          </div>
+          <p class="website__rights">All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
